@@ -1,0 +1,134 @@
+/* Configurações Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("../assets/a1 (2).jpg");
+    background-color: rgba(0, 0, 0, 0.571); 
+    background-blend-mode: darken;
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    color: #FFFFFF; /* Laranja convertido para branco */
+    text-align: center;
+    margin: 0; 
+    padding: 0;
+}
+
+/* Cabeçalho */
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    color: #e74c3c; /* Vermelho original */
+}
+
+/* Menu */
+.menu {
+    background-color: #090f11;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu ul {
+    display: inline-block;
+    padding: 10px 0;
+}
+
+.menu li {
+    position: relative;
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #e74c3c; /* Vermelho original */
+    text-decoration: none;
+}
+
+/* Conteúdo Principal */
+main {
+    padding: 20px;
+}
+
+/* Estilo de Destaque */
+.highlight {
+    color: #FFFFFF; /* Laranja convertido para branco */
+}
+
+/* Imagens */
+main img {
+    max-width: 100%;
+    margin-top: 20px;
+}
+
+/* Rodapé */
+.rodape1 {
+    background-color: #34495e;
+    color: #FFFFFF; /* Laranja convertido para branco */
+    padding: 20px 0;
+}
+
+.rodape2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), transparent);
+    color: #FFFFFF; /* Laranja convertido para branco */
+    padding: 20px 0;
+}
+
+.rodape2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.rodape2 div {
+    margin: 10px 0;
+}
+
+.rodape2 a {
+    color: #FFFFFF; /* Laranja convertido para branco */
+    text-decoration: underline;
+}
+
+.rodape2 a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+/* Sobre Nós */
+.sobre-nos p:last-child {
+    margin-bottom: 0; 
+}
+
+/* Imagem de Destinos */
+.img {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Imagem com Efeito */
+.img img {
+    max-width: 500px;
+    max-height: 300px;
+    margin-right: 10px;
+    transition: transform 0.3s;
+}
+
+.img img:hover {
+    transform: scale(1.2);
+}
+
+/* Estilo de História */
+.historia {
+    color: #FFFFFF; /* Laranja convertido para branco */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+}
